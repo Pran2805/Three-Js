@@ -25,7 +25,7 @@ const  material = new THREE.MeshStandardMaterial({
 })
 
 
-const headlight = new THREE.HemisphereLight("white","black")
+const headlight = new THREE.HemisphereLight("gray","white")
 scene.add(headlight)
 
 const mesh = new THREE.Mesh(Sphere, material)
